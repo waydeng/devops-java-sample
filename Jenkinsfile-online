@@ -10,8 +10,8 @@ pipeline {
     }
 
     environment {
-        DOCKER_CREDENTIAL_ID = 'waydeng'
-        GITHUB_CREDENTIAL_ID = 'waydeng'
+        DOCKER_CREDENTIAL_ID = 'github-id'
+        GITHUB_CREDENTIAL_ID = 'github-id'
         KUBECONFIG_CREDENTIAL_ID = 'kubeconfig'
         REGISTRY = 'docker.io'
         DOCKERHUB_NAMESPACE = 'waydeng'
